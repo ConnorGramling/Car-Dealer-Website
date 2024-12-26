@@ -1,0 +1,81 @@
+/* desktop */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+}
+
+.title hr {
+    border: 1px solid #333;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.options {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.car-selection,
+.color-selection,
+.insurance {
+    margin-bottom: 25px;
+}
+
+.car-selection label,
+.color-selection label,
+.insurance p,
+.insurance label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-content {
+    width: 75%;
+    float: right;
+    padding-left: 20px;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.description textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+    border: 1px solid #ddd;
+    line-height: 1.5;
+}
